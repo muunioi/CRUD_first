@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.pk }}번째 게시물</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>TEXT ID | {{ post.pk }}</p>
+    <p>USER | {{ post.author }}</p>
+    <p>DATE | {{ post.date }}</p>
+    <p>{{ post.body }}</p>
+    <button type="button" onclick="location.href='{% url 'delete' post.pk %}'">Delete</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1> ADD POST</h1>
+
+    <form method='post' action=''>
+        {% csrf_token %} 
+        <!--django에서 post방식으로 데이터 전송할 때 기본 보안수단-->
+        {{ form.as_p }}
+        <!--p태그를 이용해서 빈칸을 만듬-->
+        <input type='submit' value='submit'/>
+        <!-- end 안해도 상관없음!-->
+    </form>
+</body>
+</html>
