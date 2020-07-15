@@ -22,26 +22,3 @@ public class BootSpringBootApplication {
 }
 ```
 
-```
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-#ifdef _MSC_VER
-#pragma warning(disable: 4996)
-#endif
-
-typedef struct _node_t {
-	int data;
-	struct _node_t* left;
-	struct _node_t* right;
-}node_t;
-
-node_t* create_node(int data) {
-	node_t* node = (node_t*)malloc(sizeof(node_t));
-	node->data = data;
-	node->left = node->right = NULL;
-
-	return node;
-}
-```
