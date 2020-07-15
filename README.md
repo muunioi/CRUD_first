@@ -8,11 +8,12 @@ markdown 문법 연습하기
 ===============
 
 this is a normal paragraph:
-
-  this is a code block
-
+~~~
+this is a code block
+~~~
 end code block
 
+'textarea' 일반 
 
 ```
 public class BootSpringBootApplication {
