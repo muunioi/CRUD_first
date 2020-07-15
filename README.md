@@ -13,7 +13,7 @@ this is a code block
 ~~~
 end code block
 
-'textarea' 일반 
+`textarea` 일반 
 
 ```
 public class BootSpringBootApplication {
