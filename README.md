@@ -6,6 +6,7 @@ CRUD_first
 
 markdown 문법 연습하기
 ===============
+
 this is a normal paragraph:
 
   this is a code block
@@ -13,12 +14,12 @@ this is a normal paragraph:
 end code block
 
 
-'''
+```
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
   }
 }
-'''
+```
 
 
